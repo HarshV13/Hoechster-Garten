@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;         /* Vertikal zentriert */
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* oder deine Farbe */
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #4CAF50;
+}
+
+/* fefff9 farbe für hintergründe */
+
+
+.hero {
+    position: relative;
+    background: url("../assets/images/hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    /* falls nötig */
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* schwarz mit 50% Transparenz */
+    z-index: 2;
+}
+
+.hero>* {
+    position: relative;
+    z-index: 3;
+    /* damit Text über dem Overlay liegt */
+}
+
