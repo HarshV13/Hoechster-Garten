@@ -61,7 +61,10 @@ a:hover {
 }
 
 .hero-content  {
-    padding-top: 120px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
 }
 
 
@@ -86,7 +89,7 @@ a:hover {
 }
 
 /* ---------- Smartphones ---------- */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   html {
     font-size: 90%; /* leicht kleinere Basisgröße */
   }
@@ -100,6 +103,7 @@ a:hover {
 
   .hero {
     height: 70vh;
+  
   }
 
   .hero-content {
