@@ -58,3 +58,54 @@
 .main-nav a:hover::after {
   width: 100%;
 }
+
+
+
+/* ---------- Tablets (bis 1024px) ---------- */
+@media (max-width: 1024px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .main-nav a {
+    font-size: 0.95rem;
+  }
+}
+
+/* ---------- Smartphones (bis 600px) ---------- */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .logo {
+    height: 45px;
+    margin-bottom: 12px;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .main-nav a {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+}

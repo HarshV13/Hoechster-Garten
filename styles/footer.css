@@ -1,0 +1,132 @@
+.site-footer {
+  background-color: #015734; /* Dunkelgrün */
+  color: #F7F4E9;           /* Cremeweiß */
+  padding: 4rem 2rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer-logo p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.footer-section h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: #F7F4E9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #4CAF50; /* Akzentgrün */
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 12px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s;
+}
+
+.social-icons a:hover img {
+  filter: brightness(0) invert(55%) sepia(80%) saturate(300%) hue-rotate(70deg); /* grünlich */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+
+/* ---------- Tablets (bis 1024px) ---------- */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .footer-logo img {
+    width: 130px;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+
+  .footer-section a {
+    font-size: 0.95rem;
+  }
+}
+
+/* ---------- Smartphones (bis 600px) ---------- */
+@media (max-width: 600px) {
+  .footer-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 110px;
+  }
+
+  .footer-logo p {
+    font-size: 0.8rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 0.4rem;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .social-icons a img {
+    width: 22px;
+    margin: 0 8px;
+  }
+
+  .footer-bottom {
+    font-size: 0.75rem;
+    padding-top: 0.8rem;
+  }
+}
