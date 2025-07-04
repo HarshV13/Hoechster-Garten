@@ -15,7 +15,7 @@
 }
 
 .footer-logo img {
-  width: 150px;
+  width: 300px;
   margin-bottom: 1rem;
 }
 
@@ -50,10 +50,19 @@
 }
 
 .social-icons a img {
-  width: 24px;
+  width: 48px;
   margin-right: 12px;
-  filter: brightness(0) invert(1);
+  padding-bottom: 12px;
   transition: filter 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section-social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-icons a:hover img {
