@@ -159,16 +159,14 @@ a:hover {
   text-decoration: none;
   border-radius: 999px;
   transition: background 0.3s;
+  font-size: 24px;
 }
 
 .slide a:hover {
   background: #333;
 }
 
-/* Slide Farben */
-.slide-1 {
-  background: #f2f2f2;
-}
+
 
 .slide-2 {
   background: #ffe4e1;

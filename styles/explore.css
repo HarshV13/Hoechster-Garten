@@ -1,0 +1,119 @@
+.burger-truck{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.burger-truck-menu{
+    height: auto;
+    max-width: 420px;
+}
+
+.burger-slide {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding-left: 120px;
+
+}
+
+.burger-slide img{
+  max-width: 420px;
+  height: auto;
+}
+
+
+/* Slide Farben */
+.slide-1 {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E86C2D;
+  backdrop-filter: blur(30px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.slide h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.slide p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.slide a {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background 0.3s;
+}
+
+.slide a:hover {
+  background: #333;
+}
+
+/* Slide Farben */
+
+.slide-2 {
+  background: #ffe4e1;
+}
+
+.slide-3 {
+  background: #e0f7fa;
+}
+
+.slide-4 {
+  background: #fef9c3;
+}
+

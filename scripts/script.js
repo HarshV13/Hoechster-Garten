@@ -108,7 +108,7 @@ let autoplayTimeout = null;
 function startAutoplay() {
   autoplayInterval = setInterval(() => {
     goToSlide(currentSlide + 1, true, 1.2);
-  }, 3000); // 20 Sekunden
+  }, 3000); // 3 Sekunden
 }
 
 // Sofort starten beim Laden
